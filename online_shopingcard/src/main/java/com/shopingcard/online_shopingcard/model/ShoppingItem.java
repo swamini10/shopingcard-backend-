@@ -1,10 +1,16 @@
 package com.shopingcard.online_shopingcard.model;
 
-import jakarta.persistence.Entity;
-import jakarta.validation.constraints.*;
 import java.sql.Date;
 import java.time.LocalDate;
-import java.time.Period;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.validation.constraints.DecimalMin;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 @Entity
 public class ShoppingItem {
