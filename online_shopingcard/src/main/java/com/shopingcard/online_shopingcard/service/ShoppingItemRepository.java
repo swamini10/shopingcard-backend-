@@ -1,4 +1,4 @@
-package online_shoppingcard.service;
+package com.shopingcard.online_shopingcard.service;
 
 public class ShoppingItemRepository {
     
